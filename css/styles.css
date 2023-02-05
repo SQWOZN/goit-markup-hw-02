@@ -1,0 +1,153 @@
+/* Studio Page */
+:root {
+    --color-primary: #434455;
+    --color-secondary: #2E2F42;
+    --color-light: #ffffff;
+    --color-button-logo: #4D5AE5;
+    --color-button-action: #404BBF;
+    --color-button-logo-light: #F4F4FD;
+    --color-footer-text-and-button-border: #E7E9FC;
+}
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.dark-background {
+    background-color: var(--color-secondary);
+}
+.logo {
+    color: var(--color-button-logo);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.logo-header {
+    color: var(--color-secondary);
+}
+.logo-footer {
+    color: var(--color-button-logo-light);
+}
+ul {
+    list-style-type: none;
+}
+
+.navigation {
+    color: var(--color-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.navigation:hover {
+    color: var(--color-button-action);
+}
+ 
+.navigation-mail {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+.navigation-mail:hover,
+.navigation-mail:focus {
+    color: var(--color-button-action);
+}
+    
+.navigation-tel {
+    color: var(--color-primary);
+    text-decoration: none;
+    }
+.navigation-tel:hover,
+.navigation-tel:focus {
+    color: var(--color-button-action);}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-light);
+}
+.order-service-button {
+    background-color: var(--color-button-logo);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--color-light);
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+.order-service-button:hover {
+    background-color: var(--color-button-action);
+   }
+.headlines {
+    color: var(--color-secondary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+        
+
+.section-headings {
+    color:var(--color-secondary);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.name {
+    color:var(--color-secondary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+.vacancy {
+    text-align: center;
+    }
+
+.footer-text {
+    color: var(--color-footer-text-and-button-border);
+}
+/* Portfolio Page */
+.button {
+    color: var(--color-button-logo);
+    font-weight: 500;
+    border: 1px solid var(--color-footer-text-and-button-border);
+    border-radius: 4px;
+    background-color: var(--color-button-logo-light);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+.button:hover {
+    color: var(--color-light);
+    background-color: var(--color-button-action);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.card-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-secondary);
+    }
+.link-card {
+    text-decoration: none;
+}
+.card-text {
+    color: var(--color-primary);
+}
