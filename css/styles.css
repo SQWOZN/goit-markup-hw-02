@@ -12,11 +12,8 @@
 body {
     background-color: var(--color-light);
     color: var(--color-primary);
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 .dark-background {
     background-color: var(--color-secondary);
@@ -26,7 +23,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -40,6 +37,7 @@ body {
 }
 ul {
     list-style-type: none;
+    font-style: normal;
 }
 
 .navigation {
@@ -50,7 +48,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.navigation:hover {
+.navigation:hover,
+.navigation:focus {
     color: var(--color-button-action);
 }
  
@@ -86,41 +85,76 @@ ul {
     color: var(--color-light);
     cursor: pointer;
     border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.order-service-button:hover {
+.order-service-button:hover,
+.order-service-button:focus {
     background-color: var(--color-button-action);
-   }
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .headlines {
     color: var(--color-secondary);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-        
+.text-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.our-team {
+    background-color: var(--color-button-logo-light);}
 
+.element {
+    background-color: var(--color-light);
+
+}
 .section-headings {
     color:var(--color-secondary);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
 }
+
 .name {
     color:var(--color-secondary);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .vacancy {
     text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     }
 
 .footer-text {
     color: var(--color-footer-text-and-button-border);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* Portfolio Page */
 .button {
@@ -131,9 +165,13 @@ ul {
     background-color: var(--color-button-logo-light);
     cursor: pointer;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.button:hover {
+.button:hover,
+.button:focus {
     color: var(--color-light);
     background-color: var(--color-button-action);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -143,11 +181,16 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-secondary);
     }
+
 .link-card {
     text-decoration: none;
 }
 .card-text {
     color: var(--color-primary);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
